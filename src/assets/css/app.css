@@ -88,6 +88,9 @@ section {
 .rich_media_content .code-snippet *, .rich_media_content .code-snippet__fix * {
   max-width: 1000% !important;
 }
+
+
+/** 代码块 */
 .code-snippet__fix {
   word-wrap: break-word !important;
   ont-size: 14px;
@@ -100,6 +103,7 @@ section {
   border-radius: 2px;
   display: flex;
   line-height: 26px;
+  box-radius: 5px;
 }
 .code-snippet__fix .code-snippet__line-index {
   counter-reset: line;

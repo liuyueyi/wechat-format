@@ -1,13 +1,13 @@
-let lupengTheme = {
+let lyricTheme = {
   BASE: {
     'text-align': 'left',
-    'color': '#595959',
-    'line-height': '1.55em',
-    'letter-spacing': '0.06em'
+    'color': '#3f3f3f',
+    'line-height': '1.5'
   },
   BASE_BLOCK: {
     'margin': '20px 10px'
   },
+  // block element
   block: {
     h1: {
       'font-size': '140%',
@@ -36,14 +36,10 @@ let lupengTheme = {
       'line-height': '1.6'
     },
     blockquote: {
-      'color': '#9a9a9a',
-      'padding-left': '10px',
-      // 'padding-top': '0.05px',
-      'background-color': '#fefefe',
-      'line-height': '1.6',
-      'border-left': '3px solid #dbdbdb',
-      'font-size': '15px',
-      'margin': '1em 0'
+      'color': 'rgb(91, 91, 91)',
+      'padding': '1px 0 1px 10px',
+      'background': 'rgba(158, 158, 158, 0.1)',
+      'border-left': '3px solid rgb(158,158,158)',
     },
     code: {
       'font-size': '80%',
@@ -88,23 +84,18 @@ let lupengTheme = {
       'margin': '10px 10px',
     },
     codespan: {
-      'font-size': '0.8em',
-      'color': '#d14',
-      'background': '#fefefe',
-      'padding': '3px 5px 0px',
-      'margin': '0px 2px',
-      'border': '1px solid #ddd',
-      'border-radius': '3px',
+      'font-size': '90%',
+      // 'font-family': FONT_FAMILY_MONO,
+      'color': '#ff3502',
+      'background': '#f8f5ec',
+      'padding': '3px 5px',
+      'border-radius': '2px',
     },
     link: {
       'color': '#ff3502'
     },
-    wx_link: {
-      'color': '#576b95',
-      'text-decoration': 'none'
-    },
     strong: {
-      'font-weight': 'bold',
+      'color': '#ff3502'
     },
     table: {
       'border-collapse': 'collapse',

@@ -1,17 +1,16 @@
-let defaultTheme = {
+let zkqTheme = {
   BASE: {
     'text-align': 'left',
     'color': '#3f3f3f',
-    'line-height': '1.4',
+    'line-height': '1.75',
   },
   BASE_BLOCK: {
     'margin': '1em 8px'
   },
-  addition: '.preview-wrapper pre::before{font-family:"SourceSansPro","HelveticaNeue",Arial,sans-serif;position:absolute;top:0;right:0;color:#ccc;text-align:right;font-size:0.8em;padding:5px10px0;line-height:15px;height:15px;font-weight:600;}#output h2:after{display:inline-block;content:" ";vertical-align:bottom;border-bottom:28px solid #efebe9;border-right:20px solid transparent;}',
   // block element
   block: {
     h1: {
-      'font-size': '1.5em',
+      'font-size': '1.2em',
       'text-align': 'center',
       'font-weight': 'bold',
       'display': 'table',
@@ -20,7 +19,7 @@ let defaultTheme = {
       'border-bottom': '1px solid rgb(248,57,41)'
     },
     h2: {
-      'font-size': '1.5em',
+      'font-size': '1.2em',
       'text-align': 'center',
       'font-weight': 'bold',
       'display': 'table',
@@ -98,10 +97,6 @@ let defaultTheme = {
     },
     figure: {
       'margin': '1.5em 8px',
-    },
-    a: {	
-      "color": "rgb(239, 112, 96)",
- 	  "border-bottom": "1px solid rgb(239, 112, 96)"
     }
   },
   inline: {
@@ -113,13 +108,13 @@ let defaultTheme = {
     },
     codespan: {
       'font-size': '90%',
-      'color': 'rgb(239, 112, 96)',
+      'color': '#d14',
       'background': 'rgba(27,31,35,.05)',
       'padding': '3px 5px',
       'border-radius': '4px',
     },
     link: {
-      'color': '#ff3502'
+      'color': '#009926'
     },
     wx_link: {
       'color': '#0080ff',
@@ -127,6 +122,7 @@ let defaultTheme = {
       'border-bottom': '1px solid #d1e9ff'
     },
     strong: {
+      'color': '#ff5f2e',
       'font-weight': 'bold',
     },
     table: {

@@ -48,11 +48,11 @@ let defaultTheme = {
     },
     blockquote: {
       'font-style': 'normal',
-      'border-left': 'none',
+      'border-left': '3px solid rgb(239, 112, 96)',
       'padding': '1em',
       'border-radius': '4px',
       'color': '#FEEEED',
-      'background': 'rgba(27,31,35,.05)',
+      'background': '#fff9f9',
       'margin': '2em 8px'
     },
     blockquote_p: {

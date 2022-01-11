@@ -43,7 +43,7 @@
 接下来是一张图片。你可以用自己图床，也可以上传到微信媒体库再把图片 URL
 粘贴回来，或者编辑好以后，在公众号里插入图片。
 
-![这里可以写图片描述](https://static.zkqiang.cn/images/20191019181145.JPG-slim)
+![这里可以写图片描述](https://spring.hhui.top/spring-blog/css/images/avatar.jpg)
 
 如果使用图床链接的话，有可能复制后图片不能被上传，需要手动在微信重新上传替换。
 
@@ -99,10 +99,10 @@ inline code `{code: 0}`
 
 例如：
 
-[这是一篇公众号文章](https://mp.weixin.qq.com/s/ahpV7Poj5wHmtUP6vqy3gg)
+[这是一篇公众号文章](https://mp.weixin.qq.com/s?__biz=MzU3MTAzNTMzMQ==&mid=2247487303&idx=1&sn=42618a82d7362bbe83da7c6b25fe229e)
 
-[这是我的博客地址](http://zkqiang.cn)
+[这是我的博客地址](http://blog.hhui.top)
 
-[通过引号设置引用名](http://prod.zkqiang.cn/wxeditor "这是自定义的引用名")
+[通过引号设置引用名](https://blog.hhui.top "这是自定义的引用名")
 
 [本项目是 Fork 自 Lyric 原项目后的二次开发，感谢他的贡献！](https://github.com/lyricat/wechat-format "原项目代码库")

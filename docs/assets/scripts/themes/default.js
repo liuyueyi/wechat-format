@@ -77,7 +77,7 @@ let defaultTheme = {
       'border-radius': '4px',
       'display': 'block',
       'margin': '0.5em auto',
-      'width': '100%'
+      "max-width": '100%'
     },
     image_org: {
       'border-radius': '4px',

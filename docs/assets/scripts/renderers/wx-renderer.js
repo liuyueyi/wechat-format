@@ -138,7 +138,7 @@ let WxRenderer = function (opts) {
       let lang = infoString || '';
       return `<section class="code-snippet__fix code-snippet__js">`
         + `<ul class="code-snippet__line-index code-snippet__js">${ numbers.join('') }</ul>`
-        + `<pre class="code-snippet__js" data-lang="${ lang }">`
+        + `<pre class="code-snippet__js code-snippet code-snippet_nowrap" data-lang="${ lang }">`
         + codeLines.join('')
         + `</pre></section>`
     };

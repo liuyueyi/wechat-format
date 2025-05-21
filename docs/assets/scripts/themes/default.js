@@ -24,7 +24,7 @@ let defaultTheme = {
       'text-align': 'center',
       'font-weight': 'bold',
       'display': 'table',
-      'margin': '4em auto 2em auto',
+      'margin': '2em auto 2em auto',
       'padding': '0 1em',
       'border-bottom': '1px solid rgb(248,57,41)'
     },
